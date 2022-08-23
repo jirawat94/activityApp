@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Content from "../content/Content";
+import Content from "../Content/Content";
 import { activitiesByDate } from '../../api/activity.js'
 
 
