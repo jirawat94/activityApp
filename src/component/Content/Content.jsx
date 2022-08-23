@@ -3,12 +3,12 @@ import ActivitiesCard from "../ActivitiesCard/ActivitiesCard";
 import "./Content.css";
 // import { PersonalData } from "../../Store Data/Personaldata";
 
-import { useState, useEffect } from "react";
-import { getActivities } from "../../api/activity.js"
-import { useContext } from "react";
-import { UserContext } from "../context/AuthContext";
-import { useNavigate } from "react-router-dom";
-import { deleteActivity } from '../../api/activity.js'
+// import { useState, useEffect } from "react";
+// import { getActivities } from "../../api/activity.js"
+// import { useContext } from "react";
+// import { UserContext } from "../context/AuthContext";
+// import { useNavigate } from "react-router-dom";
+// import { deleteActivity } from '../../api/activity.js'
 
 const Content = (props) => {
 
