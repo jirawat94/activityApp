@@ -27,7 +27,7 @@ const Loginpage = () => {
         <div class="back-ground">
             <img src={loginpagepic} alt="ProfilePicSetting" className='ProfilePic' />
             <div class="container">
-                <h1> Login  </h1>
+                <h1> Login nnnnnnnnnnnnnnnnnnnnnnnnnnnnn </h1>
                 <form onSubmit={handleSubmit}>
                     <div class="txt_field">
                         <input type="email" clasNames="form-control" id="exampleInputEmail1" required onChange={(e) => setEmail(e.target.value)} />
