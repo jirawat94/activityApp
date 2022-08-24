@@ -88,15 +88,19 @@ const ProfileForm = () => {
         <div className='input-container' >
 
 
-            <form >
+            <form onSubmit={onSubmit}>
 
                 <div className='manualLabel'>
                     <div className='labelName'>
                         <label for="name" >Name</label>
                     </div>
+
                     <input type="text" id="name" placeholder="Input your name" name="name"
+
                         value={userInfo.name}
-                        onChange={handleChange} required />
+                        onChange={handleChange}
+                        required />
+                    {/* <span className='input-span'>should be input&shouldn't be special character</span> */}
                 </div>
 
 
@@ -129,6 +133,7 @@ const ProfileForm = () => {
                     <input type="text" id="name" placeholder="Input your height" name="height"
                         value={userInfo.height}
                         onChange={handleChange} required />
+                    {/* <span>Height should be centimeter</span> */}
                 </div>
 
                 <div className='manualLabel'>
@@ -138,8 +143,9 @@ const ProfileForm = () => {
                     <input type="text" id="name" placeholder="Input your weight" name="weight"
                         value={userInfo.weight}
                         onChange={handleChange} required />
+                    {/* <span>Weight should be kilogram</span> */}
                 </div>
-                <button className="saveButton" onClick={onSubmit} >
+                <button className="saveButton" type="submit">
                     Save
                 </button>
 

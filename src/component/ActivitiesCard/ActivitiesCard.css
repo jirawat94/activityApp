@@ -106,3 +106,22 @@ footer span {
     justify-content: center;
     align-items: center;
 }
+
+@media screen and (max-width: 768px) {
+    .display-card {
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .display-card {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }

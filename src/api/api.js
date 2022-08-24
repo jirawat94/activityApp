@@ -1,5 +1,5 @@
 import axios from "axios";
-export const host = 'http://localhost:8080'
+export const host = 'https://back-cyan.vercel.app/'
 
 export const api = axios.create({
     baseURL: `${host}/api/v1`
