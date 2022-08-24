@@ -4,7 +4,7 @@ import { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { UserAuth } from './component/context/AuthContext'
 import loginpagepic from '../src/assets/loginpagepic.jpg'
-import "./Loginpage.css"
+import "./loginpage.css"
 
 const Loginpage = () => {
     const [email, setEmail] = useState('');
