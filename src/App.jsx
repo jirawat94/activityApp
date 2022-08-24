@@ -8,7 +8,7 @@ import { BrowserRouter } from "react-router-dom";
 import Profile from './profile'
 import Activities from './Activities'
 import DashBoard from "./DashBoard"
-import Loginpage from "./Loginpage"
+import Loginpage from "./loginpage"
 import { useState } from "react"
 import Singuppage from "./Singuppage"
 import { AuthContextProvider } from "./component/context/AuthContext"
