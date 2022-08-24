@@ -41,7 +41,7 @@ const Loginpage = () => {
                     </div>
                     <input type="submit" value="Login" />
                     <div class="signup_link">
-                        Not a member? <a href='/signup'>Click Here</a>
+                        Not a member?  <Link to={`/signup`}><a>Click Here</a></Link>
                     </div>
                 </form>
             </div>
